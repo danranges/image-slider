@@ -7,6 +7,20 @@ img {
 }
 
 .viewer {
+  position: relative;
+  margin: 0 auto;
   width: 600px;
   border: 2px solid black;
+}
+
+#btn-prev {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+}
+
+#btn-next {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
 }
