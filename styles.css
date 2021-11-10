@@ -4,14 +4,14 @@ img {
 
 .slider {
   display: flex;
-  transition: transform 300ms ease-in-out;
+  /* transition: transform 300ms ease-in-out; */
 }
 
 .viewer {
   position: relative;
   margin: 0 auto;
   width: 600px;
-  border: 2px solid black;
+  overflow-x: hidden;
 }
 
 #btn-prev {
